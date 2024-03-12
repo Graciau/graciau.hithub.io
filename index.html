@@ -6,55 +6,65 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 style="font: bolder;" ><b>Maria Gracia Ureta </b></h1>
+    <h1 style="font-family: Arial, sans-serif; text-align: center;"><u><b>María Gracia Ureta</b></u></h1>
     <h2>Information:</h2>
 
     <ol>
-        <li class="Information">Major: Civil Engineering</li>
+        <li class="Information"><b>Major:</b> Civil Engineering</li>
         <li class="Information">4th year of University</li>
         <li><button><a href="https://github.com/Graciau/graciau.hithub.io.git"> Link Github </a> </button></li>
-        <li class="Information">Personal Summary: 22 years old, lives in Santiago de Chile.</li>
+        <li class="Information"><b>Personal Summary: </b> 22 years old, lives in Santiago de Chile.</li>
     </ol>
-    <h2>Skills: </h2>
-    
-</body>
-<table id="skills" style="background-color: aqua; border-collapse: collapse;">
-    <tr>
-        <td style="color: aliceblue; font-weight: bolder; text-align: center; border: 1px solid black; padding: 8px;"><b>Skill</b></td>
-        <td style="color: aliceblue; font-weight: bolder; text-align: center; border: 1px solid black; padding: 8px;"><b>Level</b></td>
-    </tr>
-    <tr>
-        <td class="skill" style="text-align: center; border: 1px solid black; padding: 8px;">Python</td>
-        <td class="level" style="text-align: center; border: 1px solid black; padding: 8px;">Advanced</td>
-    </tr>
-    <tr>
-        <td class="skill" style="text-align: center; border: 1px solid black; padding: 8px;">JavaScript</td>
-        <td class="level" style="text-align: center; border: 1px solid black; padding: 8px;">Basic</td>
-    </tr>
-    <tr>
-        <td class="skill" style="text-align: center; border: 1px solid black; padding: 8px;">HTML/CSS</td>
-        <td class="level" style="text-align: center; border: 1px solid black; padding: 8px;">Basic</td>
-    </tr>
-    <tr>
-        <td class="skill" style="text-align: center; border: 1px solid black; padding: 8px;">Git</td>
-        <td class="level" style="text-align: center; border: 1px solid black; padding: 8px;">Basic</td>
-    </tr>
-    <tr>
-        <td class="skill" style="text-align: center; border: 1px solid black; padding: 8px;">Excel</td>
-        <td class="level" style="text-align: center; border: 1px solid black; padding: 8px;">Basic</td>
-    </tr>
-    <tr>
-        <td class="skill" style="text-align: center; border: 1px solid black; padding: 8px;">Ruby</td>
-        <td class="level" style="text-align: center; border: 1px solid black; padding: 8px;">None</td>
-    </tr>
-    <tr>
-        <td class="skill" style="text-align: center; border: 1px solid black; padding: 8px;">English</td>
-        <td class="level" style="text-align: center; border: 1px solid black; padding: 8px;">Advanced</td>
-    </tr>
-    <tr>
-        <td class="skill" style="text-align: center; border: 1px solid black; padding: 8px;">Spanish</td>
-        <td class="level" style="text-align: center; border: 1px solid black; padding: 8px;">Native</td>
-    </tr>
-</table>
 
+    <h2>Skills: </h2>
+
+    <div style="text-align: center;">
+        <table id="skills" style="background-color: lightblue; border-collapse: collapse; width: 50%; margin: 0 auto;">
+
+                <tr>
+                    <td style="color: aliceblue; font-weight: bolder; text-align: center; border: 1px solid black; padding: 8px;"><b>Skill</b></td>
+                    <td style="color: aliceblue; font-weight: bolder; text-align: center; border: 1px solid black; padding: 8px;"><b>Level</b></td>
+                </tr>
+                <tr>
+                    <td class="skill" style="text-align: center; border: 1px solid black; padding: 8px;">Python</td>
+                    <td class="level" style="text-align: center; border: 1px solid black; padding: 8px;">Advanced</td>
+                </tr>
+                <tr>
+                    <td class="skill" style="text-align: center; border: 1px solid black; padding: 8px;">JavaScript</td>
+                    <td class="level" style="text-align: center; border: 1px solid black; padding: 8px;">Basic</td>
+                </tr>
+                <tr>
+                    <td class="skill" style="text-align: center; border: 1px solid black; padding: 8px;">HTML/CSS</td>
+                    <td class="level" style="text-align: center; border: 1px solid black; padding: 8px;">Basic</td>
+                </tr>
+                <tr>
+                    <td class="skill" style="text-align: center; border: 1px solid black; padding: 8px;">Git</td>
+                    <td class="level" style="text-align: center; border: 1px solid black; padding: 8px;">Basic</td>
+                </tr>
+                <tr>
+                    <td class="skill" style="text-align: center; border: 1px solid black; padding: 8px;">Excel</td>
+                    <td class="level" style="text-align: center; border: 1px solid black; padding: 8px;">Basic</td>
+                </tr>
+                <tr>
+                    <td class="skill" style="text-align: center; border: 1px solid black; padding: 8px;">Ruby</td>
+                    <td class="level" style="text-align: center; border: 1px solid black; padding: 8px;">None</td>
+                </tr>
+                <tr>
+                    <td class="skill" style="text-align: center; border: 1px solid black; padding: 8px;">English</td>
+                    <td class="level" style="text-align: center; border: 1px solid black; padding: 8px;">Advanced</td>
+                </tr>
+                <tr>
+                    <td class="skill" style="text-align: center; border: 1px solid black; padding: 8px;">Spanish</td>
+                    <td class="level" style="text-align: center; border: 1px solid black; padding: 8px;">Native</td>
+                </tr>
+            
+            <!-- Add more rows for other skills -->
+        </table>
+    </div>
+
+    <h2>Input: </h2>
+    <label for="name">Name:</label>
+    <input id="name" name="name">
+    <button >Send</button>
+</body>
 </html>
