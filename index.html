@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume MGU</title>
+    <link rel="stylesheet" href="indexstyles.css">
 </head>
 <body>
     <h1 style="font-family: Arial, sans-serif; text-align: center;"><u><b>María Gracia Ureta</b></u></h1>
@@ -22,8 +23,8 @@
         <table id="skills" style="background-color: lightblue; border-collapse: collapse; width: 50%; margin: 0 auto;">
 
                 <tr>
-                    <td style="color: aliceblue; font-weight: bolder; text-align: center; border: 1px solid black; padding: 8px;"><b>Skill</b></td>
-                    <td style="color: aliceblue; font-weight: bolder; text-align: center; border: 1px solid black; padding: 8px;"><b>Level</b></td>
+                    <td style="color: aliceblue; font-weight: bolder; text-align: center; border: 1px solid black; padding: 8px;"><b>SKILL</b></td>
+                    <td style="color: aliceblue; font-weight: bolder; text-align: center; border: 1px solid black; padding: 8px;"><b>LEVEL</b></td>
                 </tr>
                 <tr>
                     <td class="skill" style="text-align: center; border: 1px solid black; padding: 8px;">Python</td>
@@ -58,13 +59,24 @@
                     <td class="level" style="text-align: center; border: 1px solid black; padding: 8px;">Native</td>
                 </tr>
             
-            <!-- Add more rows for other skills -->
+
         </table>
     </div>
 
     <h2>Input: </h2>
-    <label for="name">Name:</label>
+    <label for="name">Enter more questions:</label>
     <input id="name" name="name">
-    <button >Send</button>
+    <button onclick="showText()">Send</button>
+    
+    <div id="output" style="margin-top: 10px;"></div>
+
+    <script>
+        function showText() {
+            var name = document.getElementById('name').value;
+            var outputDiv = document.getElementById('output');
+            outputDiv.innerText = name;
+        }
+    </script>
 </body>
 </html>
+
